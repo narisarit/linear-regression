@@ -1,3 +1,4 @@
+cor()
 summarize(cor)
 
 data.frame(R) %>%
@@ -14,3 +15,20 @@ m <-  r * s_y / s_x
 b <- mu_y - m*mu_x
 
 lm(y~x, data= )
+summary(lm(y ~ x, data = ))
+Y_hat = predict(lm(y~x, data = ))
+geom_ribbon()
+predict()
+
+library(broom)
+tidy()
+tidy(, conf.int = T)
+augment()
+glance()
+
+
+#for linear-programming
+library(reshape2)
+library(lpSolve)
+acast()
+
