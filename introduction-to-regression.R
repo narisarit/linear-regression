@@ -20,15 +20,20 @@ Y_hat = predict(lm(y~x, data = ))
 geom_ribbon()
 predict()
 
+reframe()
 library(broom)
 tidy()
 tidy(, conf.int = T)
 augment()
 glance()
 
-
 #for linear-programming
 library(reshape2)
 library(lpSolve)
 acast()
+
+#Spearman correlation
+cor(rank(x), rank(y))
+cor(x, y, method = "spearman")
+
 
